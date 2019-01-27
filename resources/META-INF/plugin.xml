@@ -2,7 +2,8 @@
   <id>com.github.rougsig.duck-progress-bar</id>
   <name>Duck Progress Bar</name>
   <version>0.0.1</version>
-  <vendor>rougsig</vendor>
+  <vendor email="rougsig@gmail.com" url="https://github.com/rougsig/duck-progress-bar">Andrey Stepankov</vendor>
+  <description>Duck progress bar for intellij based IDEs</description>
 
   <idea-version since-build="173.0"/>
 
