@@ -1,0 +1,18 @@
+<idea-plugin>
+  <id>com.github.rougsig.duck-progress-bar</id>
+  <name>Duck Progress Bar</name>
+  <version>0.0.1</version>
+  <vendor>rougsig</vendor>
+
+  <idea-version since-build="173.0"/>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij" />
+
+  <application-components>
+    <component>
+      <implementation-class>com.github.rougsig.duckprogressbar.DuckApp</implementation-class>
+    </component>
+  </application-components>
+</idea-plugin>
