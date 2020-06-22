@@ -1,3 +1,20 @@
-.idea/*
-out/*
-/*.jar
+# macOS
+.DS_Store
+
+# IntelliJ
+out/
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+classes/
+
+#gradle.properties
+*.icls
+src/test/resources/
+
+node_modules
+
+publishToken

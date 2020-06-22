@@ -7,7 +7,6 @@ import java.awt.*
 import java.awt.Graphics2D
 import java.awt.geom.RoundRectangle2D
 
-
 class DuckProgressBarUi : BasicProgressBarUI() {
   override fun getPreferredSize(c: JComponent?): Dimension {
     return Dimension(super.getPreferredSize(c).width, JBUI.scale(20))
